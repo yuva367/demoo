@@ -1,0 +1,7 @@
+<p>post works!</p>
+<label for="title">Title</label>
+<input type="text" id="title" [formControl]="title">
+  
+<button type="button" (click)="updatename()">button</button>
+<p>Title: {{ title.value }}</p>
+
