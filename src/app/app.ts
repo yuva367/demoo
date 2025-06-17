@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterLink } from '@angular/router';
-import { Post } from './post/post';
-import { Multi } from './multi/multi';
+import { CommonModule } from '@angular/common';
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Post, Multi, RouterLink],
+  imports: [CommonModule,RouterOutlet, RouterLink],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

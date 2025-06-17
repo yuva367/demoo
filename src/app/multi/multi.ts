@@ -3,6 +3,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-multi',
+  standalone:true,
   imports: [ReactiveFormsModule],
   templateUrl: './multi.html',
   styleUrl: './multi.scss'
